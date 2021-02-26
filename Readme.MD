@@ -9,7 +9,13 @@ yarn add @type/express -D -> Tipagem do que acessar / autocomplete em desenvolvi
 yarn add typescript -D
 yarn tsc --init
 yarn add ts-node-dev -D
-
+yarn add typeorm reflect-metadata
+yarn add sqlite3 
+yarn typeorm migration:create -n CreateUsers
+yarn typeorm migration:run
+yarn typeorm migration:revert -> Rollback
+yarn add uuid
+yarn add @types/uuid -D
 ```
 
 ### Commands
